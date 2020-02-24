@@ -1,0 +1,46 @@
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.Card {
+  width: 15rem;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow: hidden;
+
+  &Light {
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  &Dark {
+    background-color: hsl(209, 23%, 22%);
+  }
+
+  &Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    min-height: 10rem;
+    min-width: 15rem;
+    max-height: 10rem;
+    max-width: 15rem;
+  }
+
+  &Info {
+    padding: 1rem;
+    align-self: flex-start;
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
