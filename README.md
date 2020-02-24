@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Go to the [Demo](https://where-is-in-the-world.now.sh/).
 
 ## Available Scripts
 
