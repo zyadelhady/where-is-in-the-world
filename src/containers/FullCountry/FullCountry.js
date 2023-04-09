@@ -15,7 +15,7 @@ const FullCountry = props => {
   useEffect(() => {
     // const id = props.path
     axios
-      .get(`https://restcountries.eu/rest/v2/alpha/${id}`)
+      .get(`https://restcountries.com/v2/alpha/${id}`)
       .then(res => {
         console.log(res.data);
         setApiData(res.data);
