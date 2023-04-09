@@ -28,7 +28,7 @@ const CardContainer = props => {
   useEffect(() => {
     if (inputValue) {
       axios
-        .get(`https://restcountries.eu/rest/v2/name/${inputValue}`)
+        .get(`https://restcountries.com/v2/name/${inputValue}`)
         .then(res => {
           setApiData(res.data);
           setRegion('');
@@ -38,7 +38,7 @@ const CardContainer = props => {
         });
     } else if (region) {
       axios
-        .get(`https://restcountries.eu/rest/v2/region/${region}`)
+        .get(`https://restcountries.com/v2/region/${region}`)
         .then(res => {
           setApiData(res.data);
           setInputValue('');
